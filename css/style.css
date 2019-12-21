@@ -1,0 +1,135 @@
+.fa-arrow-up{
+    color: #CB3E4D;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    padding: 10px;
+    border: 1px solid #CB3E4D;
+    border-radius: 20%;
+    z-index: 1000;
+}
+header{
+    background-image: url(../images/bg_home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white !important;
+}
+h2{
+    color: #CB3E4D;
+}
+h3{
+    color: rgb(24, 22, 22);
+}
+a, a:hover{
+    color: white;
+}
+#contact input::placeholder, #contact textarea::placeholder{
+    color: #CB3E4D;
+}
+#contact i{
+    color: #CB3E4D;
+}
+#contact .btn{
+    color: white;
+    background-color: #CB3E4D;
+}
+img{
+    border-radius: 15px;
+}
+p{
+    color: white;
+}
+header a{
+    color: white !important;
+}
+nav a:hover{
+    color: #CB3E4D !important;
+}
+.btn1, .btn2{
+    border-radius: 20px;
+    background-color: #CB3E4D;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+.under-nav{
+    margin-top: 10%;
+}
+hr{
+    width: 15%;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#carrosserie,#expertise3d,#campingcar,#parebrise{
+    background-color: rgb(24, 22, 22);
+    padding: 2% 0 3% 0;
+}
+#moto p,#pret p,#other p,#moto a{
+    color: black;
+}
+#moto,#pret,#other,#contact{
+    padding: 2% 0 3% 0;
+}
+#contact{
+    color: white !important;
+    background-color: rgb(24, 22, 22);
+}
+#contact h3{
+    color: white;
+}
+footer{
+    background-color: rgb(24, 22, 22);
+    z-index: 10;
+    color: white !important;
+}
+footer a{
+    color: #CB3E4D;
+}
+footer a:hover{
+    color: #CB3E4D;
+}
+#a2mi{
+    color: #CB4278;
+}
+#a2mi:hover{
+    color: #CB4278;
+}
+@media screen and (max-width: 800px){
+    .video{
+        width: 100%;
+        height: 30vh;
+    }
+    img{
+        margin-top: 5%;
+    }
+    .equipe img{
+        width: 100vh !important;
+        height: 10vh;
+    }
+    .fa-arrow-up{
+        display: none;
+    }
+    h1{
+        font-size: 2em !important;
+    }
+    h2{
+        font-size: 1.7em !important;
+    }
+    h3{
+        font-size: 1.5em !important;
+    }
+    p{
+        font-size: 0.9em !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .form-group{
+        margin-bottom: 5% !important;
+    }
+    .form-row{
+        margin-bottom: 0 !important;
+    }
+}
