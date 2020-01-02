@@ -51,7 +51,7 @@ nav a:hover{
     background-color: #CB3E4D;
 }
 .navbar-brand{
-    margin-left: 10%;
+    margin-left: 2%;
 }
 .under-nav{
     margin-top: 10%;
@@ -96,6 +96,11 @@ footer a:hover{
 }
 #a2mi:hover{
     color: #CB4278;
+}
+@media screen and (max-width: 1410px){
+    img{
+        margin-top: 5%;
+    }
 }
 @media screen and (max-width: 800px){
     .video{
